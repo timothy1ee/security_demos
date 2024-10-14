@@ -17,7 +17,8 @@ giskard_model = giskard.Model(
 )
 
 # Perform the security scan
-scan_results = giskard.scan(giskard_model)
+scan_results = giskard.scan(giskard_model, only=["jailbreak"])
+# scan_results = giskard.scan(giskard_model)
 scan_results.to_html("scan_results.html")
 
 print("Security scan completed. Results saved to 'scan_results.html'.")
