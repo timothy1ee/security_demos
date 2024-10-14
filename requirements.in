@@ -1,0 +1,8 @@
+giskard[llm]
+python-dotenv
+chainlit
+openai
+langfuse
+pandas
+git+https://github.com/mathiasburger/llm-guard.git@bugfix/oldest-supported-numpy#egg=llm-guard
+aimon==0.7.3
